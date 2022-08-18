@@ -6,8 +6,17 @@
   </head>
   <!-- Stuff user has access to -->
   <body>
-    <form>
-      <label for="name">Name:</label>
+    <form action="/form" method="post">
+     <label for="name">Name:</label>
+      <input id="name" placeholder="Your name pls" value="Luis" />
+      
+      <input id="lastName" placeholder="Your lastname pls" />
+      <button type="submit">Enviar
+      </button>
+      <button type="reset">Reset</button>
+      <button type="button">Boton normal</button>
+
+      <!-- <label for="name">Name:</label>
       <input 
         id="name"
         placeholder="Your name pls"
@@ -40,10 +49,10 @@
       <input
         type="date" 
         id="lastname"
-      />
+      /> -->
     </form>
 
-    <h1>I am a header</h1>
+    <!-- <h1>I am a header</h1>
     <h2>I am a header</h2>
     <h3>I am a header</h3>
     <h4>I am a header</h4>
@@ -58,7 +67,7 @@
     <!-- <img 
       alt="Pretty cool image"
       src="https://estaticos-cdn.prensaiberica.es/clip/ef5f1ddb-1129-4413-96cf-cd3c8cd2ea57_16-9-discover-aspect-ratio_default_1098913.jpg"
-    /> -->
+    /> --> 
 
   </body> 
 </html>
